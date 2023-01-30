@@ -1,0 +1,31 @@
+{
+    "DATAFILE":             "data/save_Lorenz_25_35_500_step6000_test.npz",
+    "MODELLOAD":            "output_files/Lorenz_2_0_0_",
+    
+    
+    "train":                false,
+    
+    
+    
+    "cuda_device":          0,
+    "model":                "ode",
+    "data_channels":        3,
+    "dataset_type":         "npz_dataset",
+    "boundary_cond":        "ode",
+    "num_workers":          0,
+    
+    "learning_rate":        1e-3,
+    "eps":                  1e-8,  
+    "hidden_channels":      32,
+    "prop_layers":          1,
+    "param_size":           5,
+
+    "input_length":         300,
+    "validation_length":    20,     
+    "evaluation_length":    150,   
+    
+    "beta":                 1e-3,
+    
+      
+    "batch_size":           500
+}

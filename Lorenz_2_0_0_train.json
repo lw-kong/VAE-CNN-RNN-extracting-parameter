@@ -1,0 +1,32 @@
+{
+    "DATAFILE":             "data/save_Lorenz_25_35_1000.npz",
+    "OUTFOLDER":            "output_files/Lorenz_2_0_0_",
+    "MODELLOAD":            "output_files/Lorenz_2_0_0_",
+
+    "train":                true,    
+    "bool_load_weights":    false,
+    "freeze_encoder":       false,     
+
+    "cuda_device":          0,
+    "model":                "ode",
+    "data_channels":        3,
+    "dataset_type":         "npz_dataset",
+    "boundary_cond":        "ode",
+    "num_workers":          0,
+    
+    "learning_rate":        2e-3,
+    "eps":                  1e-8,  
+    "hidden_channels":      32,
+    "prop_layers":          1,
+    "param_size":           5,
+
+    "input_length":         300,
+    "validation_length":    20,  
+    "validation_random_length":    280,
+    
+    "beta":                 1e-3,
+    
+    "batch_size":           100,
+    "max_epochs":           6000,
+    "save_epochs":          100
+}
