@@ -287,8 +287,8 @@ def train(model, s):
 tic = time.time()
 
 
-#in_file = os.path.join("input_files", "Lorenz_2_0_0_train.json")
-in_file = os.path.join("input_files", "Ghost_2_0_3biglr_train.json")
+in_file = os.path.join("input_files", "Lorenz_2_0_0_train.json")
+
 
 repeat_num = 6
 
