@@ -1,5 +1,5 @@
 {
-    "DATAFILE":             "data/save_Lorenz_25_35_500_step6000_test.npz",
+    "DATAFILE":             "data/save_Lorenz_25_35_500_test.npz",
     "MODELLOAD":            "output_files/Lorenz_2_0_0_",
     
     
